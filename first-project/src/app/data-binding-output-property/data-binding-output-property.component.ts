@@ -14,7 +14,7 @@ export class DataBindingOutputPropertyComponent implements OnInit {
   ngOnInit(): void { }
 
   onChangedValue(event: any) {
-    console.log(event.newValue);    
+    console.log(event);    
   }
 
 }
