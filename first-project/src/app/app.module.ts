@@ -14,6 +14,7 @@ import { InputPropertyComponent } from './input-property/input-property.componen
 import { DataBindingInputPropertyComponent } from './data-binding-input-property/data-binding-input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { DataBindingOutputPropertyComponent } from './data-binding-output-property/data-binding-output-property.component';
+import { CycleComponent } from './cycle/cycle.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DataBindingOutputPropertyComponent } from './data-binding-output-proper
     InputPropertyComponent,
     DataBindingInputPropertyComponent,
     OutputPropertyComponent,
-    DataBindingOutputPropertyComponent
+    DataBindingOutputPropertyComponent,
+    CycleComponent
   ],
   imports: [
     BrowserModule,
