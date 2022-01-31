@@ -9,7 +9,11 @@ export class DataBindingComponent implements OnInit {
 
   url: string = 'http://loiane.com';
   angularCourse: boolean = true;
-  imgUrl: string = 'http://lorempixel.com.br/500/400/?';
+  imgUrl: string = 'http://lorempixel.com.br/500/400/';
+
+  name: string = 'abc';
+  courseName: string = 'Curso de Angular';
+  initialValue: number = 10;
 
   constructor() { }
 
@@ -22,6 +26,10 @@ export class DataBindingComponent implements OnInit {
 
   getLikeCourse() {
     return true;
+  }
+
+  onChangedValue(event: any) {
+    console.log(event);
   }
 
 }
