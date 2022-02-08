@@ -5,3 +5,13 @@
         {{i + 1}} - {{course}}
     </li>
 </ul>
+
+<h5>Removendo o * e usando template</h5>
+
+<ul>
+    <ng-template ngFor [ngForOf]="courses" let-course let-i="index">
+        <li>
+            {{ i + 1 }} - {{ course }}
+        </li>
+    </ng-template>
+</ul>
